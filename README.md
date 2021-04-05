@@ -1,6 +1,7 @@
 
 	Implemented a C preprocessor, with support for inclusion of header files, 
-all #if commands and multiple line defines, with the exception of functions.
+	all #if commands and multiple line defines, with the exception of functions.
+
 	Can be run with the following arguments:
 	- -D <SYMBOL>[=<MAPPING>]/-D<SYMBOL>[=<MAPPING>]: will define SYMBOL as
 		MAPPING, or "" in case MAPPING is missing
